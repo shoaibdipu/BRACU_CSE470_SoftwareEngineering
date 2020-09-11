@@ -1,9 +1,7 @@
 # CSE470ProjectSprint4v1
 
 CSE470 Project : Sprint 4 : MVC Project Run 
+
 Faculty : Afrina Khatun [AKH / AFK]
 
-Student : Shoaib Ahmed Dipu
-ID : 17101482
-Section 4, Summer 2020
-
+Student : Shoaib Ahmed Dipu, ID : 17101482, Section 4, Summer 2020
