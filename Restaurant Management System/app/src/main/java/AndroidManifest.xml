@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dineout">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:configChanges="orientation|screenSize"
+        android:fullBackupContent="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true">
+
+
+        <!--Admin Module-->
+        <activity
+            android:name=".code.view.admin.LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".code.view.admin.HomeActivity"
+            android:label="Order Up">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".code.controller.admin.AdminPanelActivity" android:label="Admin Menu" android:screenOrientation="portrait" />
+        <activity android:name=".code.controller.admin.AddItem" android:label="Add Inventory Item" android:screenOrientation="portrait" />
+        <activity android:name=".code.model.admin.Updateitem" android:label="Update Menu Item" android:screenOrientation="portrait" />
+        <activity android:name=".code.controller.admin.AddEmployeeActivity" android:label="Add Employee" android:screenOrientation="portrait" />
+        <activity android:name=".code.controller.admin.AddTableActivity" android:label="Add Table" android:screenOrientation="portrait" />
+        <activity android:name=".code.controller.admin.AddTabletActivity" android:label="Add Tablet" android:screenOrientation="portrait" />
+        <activity android:name=".code.model.admin.IngredientsList" android:label="Ingredients" android:screenOrientation="portrait" />
+        <activity android:name=".code.controller.admin.AddMenuItemActivity" android:label="Add Menu Item" android:screenOrientation="portrait" />
+        <activity android:name=".code.view.admin.EndOfWeekActivitiy" android:label="Set End of Week" android:screenOrientation="portrait" />
+        <activity android:name=".code.controller.admin.Notifications" android:label="Notifications" />
+
+        <!--Hall Management Module-->
+        <activity android:name=".code.view.hall.TableSetup" android:screenOrientation="portrait" />
+        <activity android:name=".code.view.hall.ManagerInterface" android:screenOrientation="portrait" />
+        <activity android:name=".code.view.hall.Tables" android:screenOrientation="portrait" />
+        <activity android:name=".code.controller.hall.ReadytoServeOrders" android:screenOrientation="portrait" />
+        <activity android:name=".code.model.hall.ReceivePayment" android:screenOrientation="portrait" />
+        <activity android:name=".code.controller.hall.Tracking" android:screenOrientation="portrait" />
+        <activity android:name=".code.view.hall.Tablets" android:screenOrientation="portrait" />
+        <activity android:name=".code.view.hall.ViewCompletedOrders" android:screenOrientation="portrait"></activity>
+
+        <!--Billing Module-->
+        <activity android:name=".code.view.billing.PendingPayments" android:screenOrientation="portrait"/>
+        <activity android:name=".code.view.billing.ConfirmPayment" android:screenOrientation="portrait"/>
+        <activity android:name=".code.model.billing.Feedback" android:screenOrientation="portrait"/>
+
+
+        <!--Kitchen Module-->
+        <activity android:name=".code.controller.kitchen.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".code.controller.kitchen.CooksListActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".code.controller.kitchen.AttendanceActivity" android:screenOrientation="portrait"/>
+
+
+        <!--Order Module-->
+        <activity android:name=".code.view.order.WelcomePage" android:screenOrientation="portrait"/>
+        <activity android:name=".code.controller.order.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".code.view.order.cartListView" android:screenOrientation="portrait"/>
+        <activity android:name=".code.view.order.Time" android:screenOrientation="portrait"/>
+        <activity android:name=".code.view.order.setQuantity" android:screenOrientation="portrait"/>
+
+
+        <!--Reporting Module-->
+
+
+    </application>
+
+
+</manifest>
