@@ -1,4 +1,4 @@
-# CSE470ProjectSprint4v1
+# CSE470
 
 CSE470 Project : Sprint 4 : MVC Project Run 
 
