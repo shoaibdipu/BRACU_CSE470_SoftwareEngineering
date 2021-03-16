@@ -1,6 +1,6 @@
 # 👨‍🍳 Restaurant Management System
 
-
+__Original Repository :__ https://github.com/harismuneer/Restaurant-Management-System
 ## Project Description
 DineOut is an **Android based Restaurant Management System** that aims to digitalize the process of various restaurant operations including **ordering, billing kitchen, hall and inventory management**. 
 
